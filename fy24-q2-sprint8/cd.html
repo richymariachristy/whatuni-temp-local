@@ -364,6 +364,18 @@
         </section>
 
         <section class="container-lg">
+            <!-- SIDE PANEL -->
+            <div class="side-panel__container w100 h100">
+                <div id="courseInfo" class="side-panel d-flex flex-column h100 p16">
+                    <div class="side-panel__content w100 h100">
+                        <div class="side-panel__content--title">
+                            <div class="side-panel__content--h2 heading-h2 text-black title-highlight">Course info</div>
+                        </div>
+                    </div>
+                    <div class="side-panel__footer shadow-sidepanel w100">footer</div>
+                </div>
+            </div>
+            <!-- SIDE PANEL -->
             <!-- ALERT -->
             <div class="alert alert--success mt24">
                 <a href="#" class="alert__link para-small font-regular d-inline-flex gap8">Check upcoming open days and
@@ -960,6 +972,15 @@
             </div>
         </section>
     </div>
+    <script>
+        function openNav() {
+          document.getElementById("courseInfo").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("courseInfo").style.width = "0";
+        }
+        </script>
 </body>
 
 </html>
