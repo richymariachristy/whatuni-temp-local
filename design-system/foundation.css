@@ -876,7 +876,6 @@ body * {
 .accordion.accordion--large .icon--plus::after,
 .accordion.accordion--small .icon--plus::after{
     content: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9Ik1lZGlhIC8gSWNvbiI+CjxwYXRoIGlkPSJJY29uIiBkPSJNMTIgNlYxOE0xOCAxMkw2IDEyIiBzdHJva2U9IiMzNDYwREMiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjwvZz4KPC9zdmc+Cg==");
-    display: block;
 } 
 
 .accordion.accordion--large .icon--minus::after,
@@ -1315,7 +1314,7 @@ a:hover {
     .progress-bar-wrap .progess-bar__wrapper { grid-area: 2 / 1 / 3 / 4; }
   }
 
-  
+
 .side-panel__container {
     position: fixed;
     top: 0;
@@ -1343,3 +1342,4 @@ a:hover {
 @media screen and (max-width: 700px) {
     /* hi */
 }
+
